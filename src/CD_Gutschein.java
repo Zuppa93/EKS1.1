@@ -1,8 +1,8 @@
-public class CD implements Gutschein {
+public class CD_Gutschein implements Gutschein {
 
     private int wert;
 
-    public CD (int wert){
+    public CD_Gutschein(int wert){
         this.wert =wert;
     }
 
