@@ -1,9 +1,6 @@
-public class Weihnachtsmann implements Werbegeschenk {
+public class Weihnachtsmann extends Werbegeschenk {
 
-    private final String art = "Weihnachtsmann";
-
-    public String getArt(){
-        return this.art;
+    public Weihnachtsmann() {
+        super("Weihnachtsmann");
     }
-
 }

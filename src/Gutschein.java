@@ -1,3 +1,4 @@
-public interface Gutschein {
-    public int getWert();
+public class Gutschein {
+    protected int wert;   //Euro-Wert
+    public int getWert(){return wert;}
 }

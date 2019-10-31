@@ -1,6 +1,8 @@
-public class Fussball implements Werbegeschenk{
+public class Fussball extends Werbegeschenk{
 
-    private final String art = "Fussball";
+    public Fussball(){
+        super("Fussball");
+    }
 
     public String getArt(){
         return this.art;

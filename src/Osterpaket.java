@@ -1,9 +1,11 @@
-public class Osterpaket implements Geschenkpaket {
+public class Osterpaket extends Geschenkpaket {
 
     public Gutschein erzeugeGutschein(){
-        return new CD_Gutschein(15);
+        gutschein=new CD_Gutschein(15);
+        return gutschein;
     }
     public Werbegeschenk erzeugeWerbegeschenk(){
-        return new Osterhase();
+        werbegeschenk=new Osterhase();
+        return werbegeschenk;
     }
 }

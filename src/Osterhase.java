@@ -1,9 +1,10 @@
-public class Osterhase implements Werbegeschenk{
+public class Osterhase extends Werbegeschenk{
 
-    private final String art = "Osterhase";
+    public Osterhase() {
+        super("Osterhase");
+    }
 
     public String getArt(){
         return this.art;
     }
-
 }

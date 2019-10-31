@@ -1,12 +1,12 @@
-public class Weihnachtspaket implements Geschenkpaket {
+public class Weihnachtspaket extends Geschenkpaket {
 
     public Gutschein erzeugeGutschein() {
-        Gutschein gutschein = new CD_Gutschein(20);
+        gutschein = new CD_Gutschein(20);
         return gutschein;
     }
 
     public Werbegeschenk erzeugeWerbegeschenk() {
-        Werbegeschenk werbegeschenk = new Weihnachtsmann();
+        werbegeschenk = new Weihnachtsmann();
         return werbegeschenk;
     }
 }

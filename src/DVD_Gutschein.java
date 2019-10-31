@@ -1,13 +1,7 @@
-public class DVD_Gutschein implements Gutschein{
-
-    private int wert;
+public class DVD_Gutschein extends Gutschein{
 
     public DVD_Gutschein(int wert){
         this.wert = wert;
-    }
-
-    public int getWert(){
-        return this.wert;
     }
 
 }

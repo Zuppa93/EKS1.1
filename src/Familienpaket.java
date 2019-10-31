@@ -1,9 +1,11 @@
-public class Familienpaket implements Geschenkpaket {
+public class Familienpaket extends Geschenkpaket {
 
     public Gutschein erzeugeGutschein(){
-        return new DVD_Gutschein(25);
+        gutschein=new DVD_Gutschein(25);
+        return gutschein;
     }
     public Werbegeschenk erzeugeWerbegeschenk(){
-        return new Fussball();
+        werbegeschenk=new Fussball();
+        return werbegeschenk;
     }
 }

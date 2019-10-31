@@ -1,5 +1,8 @@
-interface Geschenkpaket {
+public abstract class Geschenkpaket {
 
-    Gutschein erzeugeGutschein();
-    Werbegeschenk erzeugeWerbegeschenk();
+    protected Werbegeschenk werbegeschenk;
+    protected Gutschein gutschein;
+
+    public abstract Gutschein erzeugeGutschein();
+    public abstract Werbegeschenk erzeugeWerbegeschenk();
 }
