@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>752</x>
+      <y>136</y>
+      <w>256</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>{Geschenkpaket}
+--
+-erzeugeGutschein():Gutschein 
+-erzeugeWerbegeschenk():Werbegeschenk</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>136</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>{Gutschein}
+--
+-wert:int
+--
++getWert():int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>288</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Weihnachtsmann
+--
+-art:String
+--
++getArt():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>368</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Osterhase
+--
+-art:String
+--
++getArt():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>440</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Fussball
+--
+-art:String
+--
++getArt():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>488</x>
+      <y>304</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>CD
+--
+-wert:int
+--
++getWert():int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>400</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>DVD
+--
+-wert:int
+--
++getWert():int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>904</x>
+      <y>232</y>
+      <w>256</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Weihnachtspaket
+--
++erzeugeGutschein():Gutschein
++erzeugeWerbegeschenk():Werbegeschenk
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>448</y>
+      <w>264</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Weihnachtspaket
+--
++erzeugeGutschein():Gutschein
++erzeugeWerbegeschenk():Werbegeschenk
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>152</x>
+      <y>136</y>
+      <w>152</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>{Werbegeschenk}
+--
++getArt():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>200</y>
+      <w>112</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;70.0;10.0;70.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>200</y>
+      <w>24</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>200</y>
+      <w>80</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0;80.0;160.0;80.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>200</y>
+      <w>56</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0;50.0;120.0;50.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>200</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>848</x>
+      <y>328</y>
+      <w>256</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Osterpaket
+--
++erzeugeGutschein():Gutschein
++erzeugeWerbegeschenk():Werbegeschenk
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>952</x>
+      <y>192</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>192</y>
+      <w>24</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>192</y>
+      <w>24</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;320.0</additional_attributes>
+  </element>
+</diagram>
